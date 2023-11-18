@@ -1,0 +1,20 @@
+[package]
+name = "hypersonic"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glob-match = "0.2.1"
+html5ever = "0.26.0"
+markup5ever_rcdom = "0.2.0"
+path-slash = "0.2.1"
+pathdiff = "0.2.1"
+serde = "1.0.192"
+sha2 = "0.10.8"
+swc_core = { version = "0.86.66", features = ["ecma_ast", "ecma_parser", "common", "ecma_visit", "ecma_transforms"] }
+parcel-node-resolver = { path = "../parcel-node-resolver" }
+parcel-transformer-js = { path = "../parcel-transformer-js" }
+dashmap = "5.5.3"
+num_cpus = "1.16.0"

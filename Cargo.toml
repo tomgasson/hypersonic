@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "hypersonic",
+    "parcel-node-resolver",
+    "parcel-json-comments",
+    "parcel-transformer-js",
+]
